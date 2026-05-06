@@ -62,11 +62,20 @@ We love contributions! Here's how you can help:
 📤 Push to the branch (git push origin feature/AmazingFeature)                        
 
 🎉 Open a Pull Request                          
-## 👨‍💻 Author
-**Hamdan Saddique**
 
-🌍 Project: Shayari Reply AI – Urdu Poetry Generator
 
+## 🚀 Future Improvements
+🧠 Advanced Mood Detection System                               
+🌐 Multi-language Poetry Support (Urdu + Hindi + English)            
+🎙️ Voice-to-Shayari Feature          
+📱 Mobile Application Version           
+🤖 Fine-tuned Poetry AI Model            
+⭐ If You Like This Project             
+
+## ⭐ Star this repository
+🍴 Fork it                    
+💬 Share your feedback               
+🚀 Help improve Urdu AI together 
 ## 💖 Project Closing Note
 
 “When words turn into emotions, poetry is born…”
@@ -75,18 +84,5 @@ Shayari Reply AI is more than just a tool — it is an emotional expression engi
 
 Its goal is to make conversations more expressive, romantic, and emotionally rich, using the power of AI.
 
-🚀 Future Improvements
-🧠 Advanced Mood Detection System
-🌐 Multi-language Poetry Support (Urdu + Hindi + English)
-🎙️ Voice-to-Shayari Feature
-📱 Mobile Application Version
-🤖 Fine-tuned Poetry AI Model
-⭐ If You Like This Project
-<div align="center">
-
-⭐ Star this repository
-🍴 Fork it
-💬 Share your feedback
-🚀 Help improve Urdu AI together
-
-</div>
+## 👨‍💻 Author
+**Hamdan Saddique**
