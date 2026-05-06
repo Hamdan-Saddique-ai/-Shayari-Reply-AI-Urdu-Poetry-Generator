@@ -19,7 +19,7 @@
 ## ✨ **Live Demo Preview**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/shayari-reply-ai/main/demo-preview.gif" alt="Demo Preview" width="800"/>
+<img width="821" height="589" alt="Image" src="https://github.com/user-attachments/assets/21393d0f-6b4a-4ad0-8ace-6670fe689e3a" />
 </div>
 
 ---
