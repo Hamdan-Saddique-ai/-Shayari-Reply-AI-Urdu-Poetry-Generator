@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayari Reply AI | Urdu Poetry Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1 class="title">
+                <i class="fas fa-heart-broken"></i>
+                Shayari Reply AI
+            </h1>
+            <p class="subtitle">Emotional Urdu Poetry Generator</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Input Section -->
+            <div class="input-section">
+                <label for="userInput" class="input-label">
+                    <i class="fas fa-pen-fancy"></i> Your Sentence (Urdu or Roman Urdu)
+                </label>
+                <textarea 
+                    id="userInput" 
+                    class="user-input" 
+                    rows="3" 
+                    placeholder="مثال: میں بہت اکیلا محسوس کر رہا ہوں...&#10;or&#10;Main bohat akela mehsoos kar raha hoon..."
+                ></textarea>
+            </div>
+
+            <!-- Sidebar Options (Row) -->
+            <div class="options-panel">
+                <div class="option-group">
+                    <label><i class="fas fa-smile"></i> Mood:</label>
+                    <select id="mood" class="custom-select">
+                        <option value="auto">🤖 Auto</option>
+                        <option value="sad">😢 Sad</option>
+                        <option value="love">❤️ Love</option>
+                        <option value="angry">😠 Angry</option>
+                        <option value="motivational">💪 Motivational</option>
+                    </select>
+                </div>
+
+                <div class="option-group">
+                    <label><i class="fas fa-feather-alt"></i> Style:</label>
+                    <select id="style" class="custom-select">
+                        <option value="romantic">💕 Romantic</option>
+                        <option value="deep">🌙 Deep</option>
+                        <option value="funny">😄 Funny</option>
+                    </select>
+                </div>
+
+                <div class="option-group">
+                    <label><i class="fas fa-laugh-beam"></i> Emoji Mode:</label>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="emojiMode" checked>
+                        <label for="emojiMode"></label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button id="generateBtn" class="btn btn-primary">
+                    <i class="fas fa-magic"></i> Generate Shayari
+                </button>
+                <button id="generateAgainBtn" class="btn btn-secondary">
+                    <i class="fas fa-sync-alt"></i> Generate Again
+                </button>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div id="loadingSpinner" class="spinner hidden">
+                <div class="loader"></div>
+                <p>Crafting poetry for you...</p>
+            </div>
+
+            <!-- Output Section -->
+            <div id="outputSection" class="output-section hidden">
+                <div class="output-header">
+                    <h3><i class="fas fa-star-of-life"></i> Your Shayari</h3>
+                    <div class="output-actions">
+                        <button id="copyBtn" class="icon-btn" title="Copy to Clipboard">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                        <button id="downloadBtn" class="icon-btn" title="Download as Text">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="shayariOutput" class="shayari-box">
+                    <!-- Generated shayari appears here -->
+                </div>
+                <div class="roman-toggle">
+                    <label>
+                        <input type="checkbox" id="romanUrduToggle">
+                        <i class="fas fa-language"></i> Show Roman Urdu transliteration
+                    </label>
+                </div>
+                <div id="romanOutput" class="roman-output hidden"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>✨ AI-powered Urdu Poetry | Inspired by classical and modern poets</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
