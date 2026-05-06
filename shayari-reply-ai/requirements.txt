@@ -1,0 +1,8 @@
+# For backend (optional - only if using Flask backend)
+flask==2.3.0
+flask-cors==4.0.0
+openai==0.28.0
+python-dotenv==1.0.0
+
+# For local testing (if needed)
+streamlit==1.28.0  # Alternative frontend
