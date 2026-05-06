@@ -42,39 +42,32 @@
 </div>
 
 ---
-📊 Performance Metrics
-<div align="center">
-Metric	Value
-⚡ Response Time	< 2 seconds
-📦 Bundle Size	< 100KB
-🎯 Accuracy	85%
-🌐 Browser Support	98%
-📱 Mobile Friendly	✅
-</div>
-🤝 Contributing
-We love contributions! Here's how you can help:
+## 📊 Performance Metrics
+Metric	Value                        
+⚡ Response Time	< 2 seconds        
+📦 Bundle Size	< 100KB         
+🎯 Accuracy	85%             
+🌐 Browser Support	98%          
+📱 Mobile Friendly	✅         
 
-🍴 Fork the repository
+## 🤝 Contributing
+We love contributions! Here's how you can help:        
 
-🔧 Create your feature branch (git checkout -b feature/AmazingFeature)
+🍴 Fork the repository                                                           
 
-💾 Commit your changes (git commit -m 'Add some AmazingFeature')
+🔧 Create your feature branch (git checkout -b feature/AmazingFeature)                
 
-📤 Push to the branch (git push origin feature/AmazingFeature)
+💾 Commit your changes (git commit -m 'Add some AmazingFeature')                     
 
-🎉 Open a Pull Request
-👨‍💻 Author
-<div align="center">
-🧑‍💻 Hamdan Saddique
+📤 Push to the branch (git push origin feature/AmazingFeature)                        
 
-💡 AI Developer | Python Enthusiast | NLP & Urdu AI Explorer
-
-📧 Email: hamdan.saddique509@gmail.com
+🎉 Open a Pull Request                          
+## 👨‍💻 Author
+**Hamdan Saddique**
 
 🌍 Project: Shayari Reply AI – Urdu Poetry Generator
 
-</div>
-💖 Project Closing Note
+## 💖 Project Closing Note
 
 “When words turn into emotions, poetry is born…”
 
