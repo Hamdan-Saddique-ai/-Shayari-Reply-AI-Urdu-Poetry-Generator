@@ -2,6 +2,7 @@
 <div align="center">
 
 # 💔 Shayari Reply AI
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/11da9634-8ba1-498c-a844-f7ae9421f51e" />
 
 ### *Emotional Urdu Poetry Generator*
 
