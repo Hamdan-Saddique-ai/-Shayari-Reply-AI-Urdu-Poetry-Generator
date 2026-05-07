@@ -1,9 +1,6 @@
-
 <div align="center">
-
 # 💔 Shayari Reply AI
 <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/11da9634-8ba1-498c-a844-f7ae9421f51e" />
-
 ### *Emotional Urdu Poetry Generator*
 
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/yourusername/shayari-reply-ai)
